@@ -16,7 +16,7 @@ $(document).ready(function() {
     $(".hide2").slideToggle();
   });
   $("button").click(function(event) {
-    alert("Message Sent");
+    alert("Hey,We have received your message.Thank you for reaching out to us");
     event.preventDefault();
 
   });
