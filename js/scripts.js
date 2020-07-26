@@ -15,12 +15,12 @@ $(document).ready(function() {
     $(".show2").slideToggle();
     $("#hide3").slideToggle();
   });
-  $("button").click(function(event) {
-    alert("Hey,We have received your message.Thank you for reaching out to us");
-    event.preventDefault();
-
-  });
   
+  $("button").click(function (event) {
+    var popUp = document.getElementById('nameDetail').value;
+    alert("Hello " + popUp + " we have received your message.Thank you for reaching out to us "  );
+    event.preventDefault();
+  });
 
 
 
