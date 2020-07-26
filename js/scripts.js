@@ -16,13 +16,7 @@ $(document).ready(function() {
     $("#hide3").slideToggle();
   });
   
-  $("button").click(function (event) {
-    var popUp = document.getElementById('nameDetail').value;
-    alert("Hello " + popUp + " we have received your message.Thank you for reaching out to us "  );
-    event.preventDefault();
-  });
-
-
+  
 
 $("#one").hover(function(){
    $("#1").removeClass("four")
@@ -95,6 +89,12 @@ $("#one").hover(function(){
    $("#8").addClass("four")
 
  })
-
-
 });
+
+
+$("button").click(function (event) {
+  var popUp = document.getElementById('nameDetail').value;
+  alert("Hello " + popUp + " we have received your message.Thank you for reaching out to us "  );
+  event.preventDefault();
+});
+
