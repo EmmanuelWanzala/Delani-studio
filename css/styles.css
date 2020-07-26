@@ -68,9 +68,9 @@ body {
   padding-top: 10px;
 }
 
-textarea {
+/* textarea {
   border-radius: 15px;
-}
+} */
 .four {
   position: absolute;
   top: 50%;
@@ -129,4 +129,6 @@ textarea {
 #icon:hover {
   transform: scale(1.7);
 }
-
+h2{
+  font-weight: lighter;
+}
