@@ -131,14 +131,17 @@ body {
 }
 h2{
   font-weight: lighter;
+  font-family: 'Lobster Two', cursive;
 }
 h6{
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Chewy', cursive;
 }
 .form1{
   background: transparent;
 }
-
+.writing1{
+  font-family: 'Manjari', sans-serif;
+}
 
 
 
