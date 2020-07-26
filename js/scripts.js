@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".design").click(function(event) {
-    $(".hide").slideToggle();
+    $("#hide1").slideToggle();
     $(".show").slideToggle();
 
 
@@ -8,12 +8,12 @@ $(document).ready(function() {
   /*display and hive development content*/
   $(".development").click(function(event) {
     $(".show1").slideToggle();
-    $(".hide1").slideToggle();
+    $("#hide2").slideToggle();
   });
 
   $(".product").click(function(event) {
     $(".show2").slideToggle();
-    $(".hide2").slideToggle();
+    $("#hide3").slideToggle();
   });
   $("button").click(function(event) {
     alert("Hey,We have received your message.Thank you for reaching out to us");
