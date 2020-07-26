@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 
   });
-  /*display and hive development content*/
+  
   $(".development").click(function(event) {
     $(".show1").slideToggle();
     $("#hide2").slideToggle();
@@ -20,7 +20,7 @@ $(document).ready(function() {
     event.preventDefault();
 
   });
-  //
+  
 
 
 
