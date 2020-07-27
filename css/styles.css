@@ -1,8 +1,9 @@
-#zero{
+.fire {
   background: url(../images/backgrounds/h_img.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 0;
+  height: 100vh;
   font-family: 'Yeon Sung', cursive;
 }
 body {
@@ -12,30 +13,17 @@ body {
   text-align: center;
 }
 
-.container {
+ .container {
   margin: inherit;
   width: inherit;
 }
 
-.writing {
-  background: transparent;
-  font-weight: bold;
-  color: #FFFFFF;
-  align-content: center;
-  font-size: 50px;
-}
 
-#mouse-click{
-  padding-top : 22px;
-  margin-top: 10%;
-  padding-bottom: 30px; 
-  /* animation-iteration-count: infinite; */
-}
 #mouse-click {
   animation: bounce 2s infinite;
 }
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%, 25%, 50%, 75%, 100% {
     transform: translateY(0);
   }
   40% {
@@ -46,7 +34,16 @@ body {
   }
 }
 
-#first{
+.text1 {
+  background: transparent;
+  font-weight: bold;
+  color: #FFFFFF;
+  align-content: center;
+  font-size: 50px;
+}
+
+
+.part2 {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 22px;
 }
@@ -55,39 +52,40 @@ body {
   background: url(../images/backgrounds/s_image.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 20px;
+  color: aliceblue;
 }
 
-#fourth {
+#section4 {
   background: url(../images/backgrounds/c_image.jpg) no-repeat;
   background-size: cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   margin-bottom: 5px;
 }
 
-.fifth{
-  padding-top: 10px;
+.part6 {
+  margin-top: 10px;
 }
 
-/* textarea {
+textarea {
   border-radius: 15px;
-} */
-.four {
-  position: absolute;
+}
+.work {
+   position: absolute; 
   top: 50%;
   left: 20%;
-  color:black;
-  background:transparent;
-  /* border: 1px solid #800080; */
+  color: black;
+  background: white;
+  border: 1px solid #800080;
   padding: 12px;
   display: none;
 }
-.light
+.sleep
 {
   position: absolute;
   top: 50%;
   left: 20%;
   color: black;
-  background:white;
+  background: white;
   border: 1px solid #800080;
   padding: 12px;
 
@@ -102,55 +100,39 @@ body {
   background-color: #329932;
 }
 
-.blue {
+.grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: auto;
+  justify-content:space-around;
   margin-top: 5%;
-  margin-bottom: 18px;
+  width: auto;
+  margin-bottom: 20px;
 }
-#hide1, #hide2, #hide3 {
-  display: none;
-}
-.writing2 {
+
+.text3 {
   background: transparent;
-  font-family: helvetica,serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 22px;
-  font-weight: lighter;
+  font-weight: bold;
   color: #FFFFFF;
   align-content: center;
 }
 
-/* h3 {
-  font-style: italic;
-} */
-
-#icon:hover {
-  transform: scale(1.7);
-}
-h2{
-  font-weight: lighter;
-  font-family: 'Lobster Two', cursive;
-}
-h6{
-  font-family: 'Chewy', cursive;
-}
-.form1{
-  background: transparent;
-}
-.writing1{
-  font-family: 'Manjari', sans-serif;
+h4 {
+  font-weight: bold;
 }
 
-
-
-/* .form-cont input {
-  width: 49%;
-  background: transparent;
+.zoom:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-.form-cont textarea {
-  margin-top: 10px;
-  width: 100%;
-  background: transparent;
-} */
+
+.hide, .hide1, .hide2 {
+  display: none;
+}
+h5{
+  font-family: 'Permanent Marker', cursive;
+}
+.writing1 p{
+  font-family: 'Poiret One', cursive;
+}
