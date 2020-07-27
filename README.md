@@ -27,7 +27,7 @@ Wanzala Emmanuel John
 ###  SET UP INSTRUCTIONS
 -To have a local copy of this project :
 
--git clone https://emmanuelwanzala.github.io/Delani-studio/
+-git clone https://github.com/EmmanuelWanzala/Delani-studio.git
 
 -cd into your desired project folder
 
@@ -35,7 +35,7 @@ Wanzala Emmanuel John
 
 ### LIVE LINK
 
-
+https://emmanuelwanzala.github.io/Delani-studio/
 
 ### LICENSE
 
